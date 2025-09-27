@@ -1,0 +1,105 @@
+.dark-mode {
+  background: linear-gradient(55deg, #1d1030 0%, #2b1d47 50%, #3a2760 85%);
+  color: #dcd3f7;
+  min-height: 100vh; /* ensures gradient fills the full viewport */
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.dark-mode #container {
+  background: #0e071d;
+  border: 1px solid #6d44cc;
+  box-shadow: 0 0 8px rgba(189, 138, 255, 0.4);
+}
+
+.dark-mode #blog {
+  background: linear-gradient(55deg, #1d1030 0%, #2b1d47 50%, #3a2760 85%);
+  border-radius: 5px;
+  scrollbar-width: thin;
+  scrollbar-color: #643d93 #4a2779;
+}
+
+.dark-mode #blog::-webkit-scrollbar {
+  width: 8px;
+}
+
+.dark-mode #blog::-webkit-scrollbar-track {
+  background: #2b1d47;
+  border-radius: 10px;
+}
+
+.dark-mode #blog::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #501797, #2d1566);
+  border-radius: 10px;
+}
+
+.dark-mode #blog article {
+  background: #1e1433;
+  border: 1px solid #32204d;
+  color: #e8e2f7;
+  box-shadow: 0 0 6px rgba(120, 80, 200, 0.3);
+}
+
+.dark-mode header {
+  background-image: url('iguro.gif');
+    background-position: center center;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+}
+
+.tagline{
+  color: #d6c4ec;
+}
+
+
+.dark-mode h1 {
+  color: #dcb3ff;
+}
+
+.dark-mode h2 {
+  color: #e8e2f7;
+  background-color: #352052;
+  border-radius: 5px;
+}
+
+.dark-mode h3 {
+  color: #c7b5f9;
+  background-color: #422d5e;
+  border-bottom: 1px solid #6d489e;
+}
+
+.dark-mode h4 {
+  color: #a59cc5;
+}
+
+.dark-mode button {
+  background-color: #2f1e4d;
+  color: #e8e2f7;
+  border: 1px solid #6d44cc;
+  box-shadow: 0 0 5px rgba(189, 138, 255, 0.4);
+}
+
+.dark-mode button:hover {
+  background-color: #3a2760;
+  color: #fff;
+  border: 1px solid #b77bff;
+  box-shadow: 0 0 7px rgba(209, 168, 255, 0.7);
+}
+
+.dark-mode a {
+  color: #c996ff;
+}
+
+.dark-mode a:hover {
+  color: #9fd0ff;
+}
+
+footer {
+  text-align: center;
+  font-size: 7px;
+  padding: 5px;
+  margin: 5px;
+  opacity: .3;
+}
