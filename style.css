@@ -1,0 +1,156 @@
+body {
+  background: url('bg-tile.gif') repeat; /* retro background image */
+  font-family: 'Monaco';
+  font-size: 10px; /* smaller text globally */
+  color: #615682;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#container {
+  max-width: 300px;
+  max-height: 370px;
+  width: 100%;
+  margin: 150px auto;
+  background: #fff;
+  border: 1px solid #c1a5e394;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0 0 6px rgba(50, 21, 144, 0.44);
+}
+
+#content {
+  display: block;
+  height: auto;
+}
+
+#sidebar {
+  display: none;
+}
+
+
+/* Chrome, Edge, Safari */
+#blog::-webkit-scrollbar {
+  width: 8px; /* thickness */
+}
+
+#blog::-webkit-scrollbar-track {
+  background: #efeaff;  
+  border-radius: 10px;
+}
+
+#blog::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg,  #f4eaff,#f4eaff); 
+  border-radius: 10px;
+}
+
+
+/* Firefox */
+#blog {
+  scrollbar-width: thin; 
+  scrollbar-color:  #f4eaff #e3d9fa; 
+}
+
+
+#blog {
+  width: 97%;
+  height: 200px;
+  padding: 5px;
+  margin-top: 5px;
+  overflow-y: scroll;
+  background: linear-gradient(55deg, #f9e1ff80 0%, #d1c1ff7d 51%, #b1b1fe 85%);
+  border-radius: 5px;
+}
+
+#blog article {
+  background: #ffffff;
+  margin: 7px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
+  font-size: 9px;
+}
+
+header {
+  background-color: #d6c4ec;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px;
+  background-image: url('iguro.gif');
+  background-position: center center;
+}
+
+.tagline{
+  color: #d6c4ec;
+}
+
+h7 {
+  font-family: 'Cormorant Garamond';
+  color: #5b3a87;
+  font-size: 11px;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond';
+  color: #d6c4ec;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 11px;
+  padding: 4px;
+}
+
+h3 {
+  font-size: 10px;
+  margin-bottom: 4px;
+  background-color: #e8e2fa;
+  border-bottom: 1px solid rgb(224, 201, 253);
+}
+
+h4 {
+  font-size: 9px;
+}
+
+a {
+    font-family: 'Monaco';
+  font-size: 8px; /* smaller text globally */
+  color: #3b20ed;
+}
+
+a:hover {
+    font-family: 'Monaco';
+  font-size: 8px; /* smaller text globally */
+  color: #ac82da;
+}
+
+button {
+  font-size: 9px;
+  padding: 3px 6px;
+  margin: 3px;
+  border-radius: 6px;
+  border-color: #c6b0f5;
+}
+
+button:hover {
+  font-size: 8px;
+  padding: 3px 6px;
+  border: 1px solid #c1a5e3;
+  box-shadow: 0 0 5px  #c6b0f5;
+}
+
+.tooltip .tooltiptext {
+  font-size: 8px;
+  width: 80px;
+  padding: 2px;
+}
+
+footer {
+  text-align: center;
+  font-size: 7px;
+  padding: 5px;
+  margin: 5px;
+  opacity: .3;
+}
