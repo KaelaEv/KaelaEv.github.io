@@ -1,7 +1,7 @@
 body {
-  background: url('bg-tile.gif') repeat; /* retro background image */
+  background: url('bg-tile.gif') repeat; 
   font-family: 'Monaco';
-  font-size: 10px; /* smaller text globally */
+  font-size: 10px; 
   color: #615682;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@ body {
 
 /* Chrome, Edge, Safari */
 #blog::-webkit-scrollbar {
-  width: 8px; /* thickness */
+  width: 8px;
 }
 
 #blog::-webkit-scrollbar-track {
@@ -116,13 +116,13 @@ h4 {
 
 a {
     font-family: 'Monaco';
-  font-size: 8px; /* smaller text globally */
+  font-size: 8px; 
   color: #3b20ed;
 }
 
 a:hover {
     font-family: 'Monaco';
-  font-size: 8px; /* smaller text globally */
+  font-size: 8px; 
   color: #ac82da;
 }
 
@@ -154,5 +154,4 @@ footer {
   margin: 5px;
   opacity: .3;
 }
-
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym580.cur), auto !important;} /* End https://www.cursors-4u.com */
+* {cursor: url(https://cur.cursors-4u.net/symbols/sym-6/sym580.cur), auto !important;} 
