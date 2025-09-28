@@ -1,7 +1,7 @@
 .dark-mode {
   background: linear-gradient(55deg, #1d1030 0%, #2b1d47 50%, #3a2760 85%);
   color: #dcd3f7;
-  min-height: 100vh; /* ensures gradient fills the full viewport */
+  min-height: 100vh; 
   display: flex;
   justify-content: center;
   padding: 20px;
